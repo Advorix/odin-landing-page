@@ -1,3 +1,12 @@
+/* Their image is 1440 x 1912. 
+*  This looks good at that ratio, but due to me using relative values and them using 
+*  absolute in the guide, it gets a bit off in other ratios. 
+*  I think when they said "not to worry about making it look good on mobile," 
+*  it meant that I was supposed to use absolute values, but I don't want to make that a habit.
+*  I'm also using a slightly darker color for the secondary text.
+*  Not sure if it's a screen difference or something, but the original color
+*  doesn't seem to be much less of a contrast like they're saying it is.
+*/
 * {
     font-family: Roboto, sans-serif;
 }
@@ -13,7 +22,7 @@ body {
 
 #header {
     display: flex;
-    padding: 1% 15%;
+    padding: 2% 10%;
     justify-content: space-between;
     background-color: #1F2937;
 }
@@ -25,12 +34,58 @@ body {
 }
 
 #nav-bar {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
-    color: #E5E7EB;
+    color: #c3c3c3;
     font-size: 18px;
-    
+}
+
+#introduction {
+    display: flex;
+    padding: 10%;
+    background-color: #1F2937;
+}
+
+#left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#left-1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-right: 10%; /*This makes the 'awesome' go to another line in most ratios.*/
+}
+
+#left-2 {
+    color: #c3c3c3;
+    font-size: 18px;
+    padding: 1% 1% 1% 0;
+    margin-right: 20%; /*This makes it look proper at 1440px wide*/
+}
+
+#first-attempt {
+    width: fit-content;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 1.5% 7%;
+    margin-top: 1%;
+    border: none;
+    border-radius: 0.4em;
+}
+
+#image-placeholder {
+    width: max-content;
+    padding: 40% 60%;
+    background-color: #6c7179;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;  
+
 
 }
 
