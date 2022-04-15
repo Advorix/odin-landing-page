@@ -85,7 +85,43 @@ body {
     color: #F9FAF8;
     font-size: 18px;
     text-align: center;  
+}
 
+#information {
+    padding-bottom: 5%;
+}
 
+#info-header {
+    text-align: center;
+    margin: 3%;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 15%;
+}
+
+.illustration-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.picture {
+    border: 5px solid #3882f6;
+    border-radius: 2em;
+    padding: 45%;
+    margin: 0% 5%;
+}
+
+.illustration-description {
+    font-size: 18px;
+    text-align: center;
+    margin: 3% 1%;
+    padding: 1% 5%;
 }
 
