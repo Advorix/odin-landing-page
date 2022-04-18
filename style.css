@@ -109,13 +109,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin: auto;
 }
 
 .picture {
     border: 5px solid #3882f6;
     border-radius: 2em;
     padding: 45%;
-    margin: 0% 5%;
 }
 
 .illustration-description {
