@@ -184,3 +184,10 @@ blockquote > p {
     border-radius: 0.4em;
 }
 
+#footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 3%;
+}
+
