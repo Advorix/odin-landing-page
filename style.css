@@ -125,14 +125,14 @@ body {
 
 #testimonial {
     background-color: #e5e7eb;
-    color: #1F2937
+    color: #1F2937;
+    padding-bottom: 5%;
 }
 
 blockquote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    
 }
 
 blockquote > p {
@@ -144,6 +144,43 @@ blockquote > p {
     font-weight: bolder;
     text-align: right;
     margin-right: 24%;
-    
+}
+
+#call-to-action {
+    margin: 7% 10%;
+}
+
+#action-container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 5% 15%;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+
+#left-action {
+    display: flex;
+    flex-direction: column;
+}
+
+#action1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#action2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#second-attempt {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    font-size: 20px;
+    padding: 1% 5%;
+    margin-top: 1%;
+    border: 3px solid;
+    border-radius: 0.4em;
 }
 
